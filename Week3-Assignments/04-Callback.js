@@ -4,6 +4,7 @@ function checkBrowserVersion(a){
     setTimeout(() => {
         callback(browser)
     }, 2000);
+    a(); // callback function
 
 }
 
